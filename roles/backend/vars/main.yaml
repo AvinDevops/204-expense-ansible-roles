@@ -1,0 +1,4 @@
+login_host: 172.31.81.154
+login_user: root
+login_password: ExpenseApp@1
+DB_HOST: 172.31.81.154
