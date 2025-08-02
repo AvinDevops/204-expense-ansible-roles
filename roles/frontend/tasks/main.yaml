@@ -22,9 +22,8 @@
 
 - name: copying expense conf file
   ansible.builtin.template:
-    src: /home/ec2-user/203-expense-ansible/expense.conf.j2
+    src: /home/ec2-user/204-expense-ansible-roles/expense.conf.j2
     dest: /etc/nginx/default.d/expense.conf
-    remote_src: yes
   notify:
   - restarting nginx
 
